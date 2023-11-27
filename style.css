@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+.container__title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.containet__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 25px;
+    justify-content: center;
+}
+
+.containet__list__item {
+    flex-basis: content;
+    border: 1px dashed #ddd;
+}
